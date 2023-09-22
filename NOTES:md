@@ -1,0 +1,19 @@
+# Playwright demo
+
+### Overview
+
+- Very easy to set up
+- Simple build-in locators, for example:
+  - page.getByRole('heading', { name: 'Welcome' })
+  - page.getByText('To get started')
+- Code generator/recorder is maybe useful sometimes and creates clean locator code
+- New UI Mode seemed interesting
+  - Web UI for running tests, tracing errors and with other debugging tools
+- Github Action generated automatically
+
+### Use Case
+
+- UI tests against mock API
+- Live environment testing after deployments
+
+
