@@ -14,6 +14,12 @@
 ### Use Case
 
 - UI tests against mock API
+  - Mock Service Worker (MSW, https://github.com/mswjs/msw) could be useful for this
 - Live environment testing after deployments
 
+### TODO investigate
 
+- Authentication in live environment
+  - Create new SSO credentials
+- Data changes in live environments, how to handle this
+- If mock APIs are used, keeping them in sync with real APIs
