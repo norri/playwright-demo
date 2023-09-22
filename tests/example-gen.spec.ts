@@ -1,6 +1,6 @@
-import { test, expect } from '@playwright/test';
+import { test } from '@playwright/test';
 
-test('test', async ({ page }) => {
+test('test @ci', async ({ page }) => {
   await page.goto('/');
   
   await page.getByRole('link', { name: 'Themes→ Explore a galaxy of community-built starter themes.' }).click();
